@@ -1,14 +1,18 @@
 <template>
   <div >
-    
+    <page-body></page-body>
   </div>
 </template>
 
 <script>
+import PageBody from './components/body.vue'
 
 export default {
-  name: 'App',
+  
   components: {
+    PageBody
+
+
   }
 }
 </script>
